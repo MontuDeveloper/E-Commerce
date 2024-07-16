@@ -1,0 +1,63 @@
+ul li {
+  list-style-type: none;
+}
+main {
+  background-color: transparent !important;
+  overflow-y: scroll;
+  height: 80vh;
+}
+main::-webkit-scrollbar {
+  width: 0px;
+}
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-sider {
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+.ant-layout-sider-collapsed {
+  flex: 0 0 80px !important;
+  max-width: 80px !important;
+  min-width: 80px !important;
+  width: 80px !important;
+}
+.demo-logo-vertical {
+  background-color: #006666;
+  margin: 0;
+  height: 64px;
+}
+
+.ant-menu-title-content {
+  font-size: 16px;
+}
+.top-header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+}
+.top-header-nav-list {
+  padding: 6px 10px;
+  display: inline-block;
+  /* position: relative; */
+}
+.profile-media {
+  display: flex;
+  align-items: flex-start;
+}
+.ant-layout-header h5 {
+  line-height: 20px;
+  font-size: 16px;
+}
+.ant-layout-header p {
+  line-height: 20px;
+  font-size: 13px;
+}
+.ant-layout-header div .badge {
+  top: 16px;
+  right: -2px;
+}

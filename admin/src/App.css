@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+
+/* add product */
+
+.ql-toolbar.ql-snow {
+  border: 0px !important;
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  border-top: 1px solid #ccc !important;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.ql-container {
+  height: 10rem !important;
+}
+
+.dropzone {
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  border: 1px dashed black;
+  border-radius: 10px;
+  height: 150px;
+  padding: 3rem 2rem;
+}
+
+.image-preview {
+  position: relative !important;
+  vertical-align: top;
+  min-height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
